@@ -78,47 +78,51 @@ https://www.tooplate.com/view/2124-vertex
             <!-- Intro left -->
             <div class="tm-section-col tm-content">
                 <div class="tm-media">
-                    <img src="img/gallery/tn/img-11.jpg" alt="Intro image">
+                    <img src="img/timeline-activity/recruitment.jpg" alt="Intro image">
                     <div class="tm-media-body">
-                        <h2><a href="#" class="tm-text-primary">Vertex is a Free CSS Template</a></h2>
+                        <h2><a href="#" class="tm-text-primary">Open Recruitment</a></h2>
                         <p class="tm-mb-20 tm-text-small">
-                            This is a Responsive HTML5 Template brought to you by Tooplate for
-                            100% free of charge. You can feel free to download, modify, and
-                            use this layout for your websites.
+                            - Berdomisili Bandung.<br>
+                            - Berumur 17 tahun keatas.<br>
+                            - Memiliki motor custom/classic/retro modern.<br>
+                            - Memiliki SIM.<br>
+                            - Berperilaku baik/good attitude.<br>
+                            - Tidak terikat club/komunitas manapun.<br>
+                            - Mengikuti Kegiatan "NightRout9" (conditional).<br>
                         </p>
                         <span class="tm-text-secondary tm-media-span tm-text-small">
-                            Friday . 25 June 2021
+                            Sabtu . 20 Juli 2024
                         </span>
                         <hr class="tm-hr tm-mr">
                     </div>
                 </div>
 
                 <div class="tm-media">
-                    <img src="img/gallery/tn/img-12.jpg" alt="Intro image">
+                    <img src="img/timeline-activity/kopgabacb.jpeg" alt="Intro image">
                     <div class="tm-media-body">
-                        <h2><a href="#" class="tm-text-primary">Responsive and Parallax Images</a></h2>
+                        <h2><a href="#" class="tm-text-primary">"Eternal Night" Kopgab wih Accidentaly Bandung</a></h2>
                         <p class="tm-mb-20 tm-text-small">
-                            You are not allowed to re-distribute this template as a ZIP file on any template collection
-                            website for the template download purpose. Please <a rel="nofollow"
-                                href="https://www.tooplate.com/contact" target="_parent">contact us</a> for more info.
+                           - Rock n' Ride with Classic Customs - <br>
+                           - at Music Park Bandung - <br><a rel="nofollow"
+                                href="https://www.instagram.com/cavanero.bdg/" target="_parent">contact us</a> for more info.
                         </p>
                         <span class="tm-text-secondary tm-media-span tm-text-small">
-                            Monday . 21 June 2021
+                            Jumat . 07 Juli 2024
                         </span>
                         <hr class="tm-hr tm-mr">
                     </div>
                 </div>
 
                 <div class="tm-media">
-                    <img src="img/gallery/tn/img-18.jpg" alt="Intro image">
+                    <img src="img/timeline-activity/nightrout9.jpeg" alt="Intro image">
                     <div class="tm-media-body">
-                        <h2><a href="#" class="tm-text-primary">Do you like this HTML layout?</a></h2>
+                        <h2><a href="#" class="tm-text-primary">Cavanero NightRout9</a></h2>
                         <p class="tm-mb-20 tm-text-small">
-                            This is a custom full-width layout. Gallery page included paging thumbnails with a beautiful
-                            hover effect and a larger image pop up in the lightbox.
+                            Time for "NightRout9" with Cavallo Nero De Liberta.<br>
+                            Prepare ur engines
                         </p>
                         <span class="tm-text-secondary tm-media-span tm-text-small">
-                            Wednesday . 16 June 2021
+                            Jumat . 28 June 2024
                         </span>
                         <hr class="tm-hr tm-mr">
                     </div>
@@ -166,7 +170,7 @@ https://www.tooplate.com/view/2124-vertex
                     <a href="#gallery" class="tm-btn tm-btn-next">Next page</a>
                 </div>
                 <hr class="tm-hr tm-ml tm-sm-mt-30">
-                <div class="tm-row">
+                <!-- <div class="tm-row">
                     <div class="tm-col">
                         <div class="tm-text-center tm-my-50">
                             <i class="fas fa-street-view fa-3x"></i>
@@ -185,7 +189,7 @@ https://www.tooplate.com/view/2124-vertex
                             conubia nostra, per inceptos himenaeos.
                         </p>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <!-- Services right -->
@@ -195,7 +199,7 @@ https://www.tooplate.com/view/2124-vertex
         <div id="gallery" class="tm-content tm-content-small-top">
             <div class="tm-gallery-container">
                 <h2 class="tm-text-primary tm-text-right tm-gallery-header">Our Gallery</h2>
-                <div class="tm-gallery tm-mb-80">
+                <div class="tm-gallery tm-mb-80" id="gallery">
                     <figure class="effect-goliath tm-gallery-item">
                         <img src="img/gallery/tn/img-01.jpg" alt="Image" />
                         <figcaption>
@@ -513,10 +517,54 @@ https://www.tooplate.com/view/2124-vertex
     </main>
 
     <script src="js/plugins.js"></script>
+    <script src="js/asset-image.js"></script>
+
     <script>
         $(window).on("load", function () {
             $('body').addClass('loaded');
         });
+        // var gallery = document.getElementById('gallery');
+
+        // // Iterate over each object in the JSON array
+        // jsonData.forEach(function (item) {
+        //     // Create a new figure element
+        //     var figure = document.createElement('figure');
+        //     figure.classList.add('effect-goliath', 'tm-gallery-item');
+
+        //     // Create the img element
+        //     var img = document.createElement('img');
+        //     img.setAttribute('src', item.url);
+        //     img.setAttribute('alt', 'Image');
+
+        //     // Create the figcaption element
+        //     var figcaption = document.createElement('figcaption');
+
+        //     // Create the h2 element
+        //     var h2 = document.createElement('h2');
+        //     h2.textContent = item.name;
+
+        //     // Create the p element
+        //     var p = document.createElement('p');
+        //     p.textContent = item.figcaption;
+
+        //     // Create the a element
+        //     var a = document.createElement('a');
+        //     a.setAttribute('href', item.url);
+        //     a.textContent = 'View more';
+
+        //     // Append h2, p, and a to figcaption
+        //     figcaption.appendChild(h2);
+        //     figcaption.appendChild(p);
+        //     figcaption.appendChild(a);
+
+        //     // Append img and figcaption to figure
+        //     figure.appendChild(img);
+        //     figure.appendChild(figcaption);
+
+        //     // Append figure to gallery
+        //     gallery.appendChild(figure);
+        // });
+
 
         $(function () {
 
